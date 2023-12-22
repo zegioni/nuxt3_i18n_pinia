@@ -1,41 +1,75 @@
-# VuePress
+# Nuxt 3 Minimal Starter
 
-This directory is a brief example of a [VuePress](https://vuepress.vuejs.org/) site that can be deployed to Vercel with zero-configuration.
-
-## Deploy Your Own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vuepress&template=vuepress)
-
-_Live Example: https://vuepress-starter-template.vercel.app_
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-Install the dependencies:
+Make sure to install the dependencies:
 
 ```bash
-$ yarn install
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-### Development
+## Development Server
 
-Start the development server
+Start the development server on `http://localhost:3000`:
 
 ```bash
-$ yarn dev
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-### Build the project
+## Production
 
-Build for production
+Build the application for production:
 
 ```bash
-$ yarn build
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
 
-### Deploy
-
-Deploy your VuePress application to Vercel
+Locally preview production build:
 
 ```bash
-$ vercel
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

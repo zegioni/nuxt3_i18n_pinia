@@ -1,13 +1,28 @@
 {
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "engines": {
-    "node": ">=16.0.0 <18.0.0"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "vuepress": "1.9.7"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.11",
+    "@vueuse/core": "^10.7.0",
+    "@vueuse/nuxt": "^10.7.0",
+    "nuxt": "^3.8.2",
+    "sass": "^1.69.5",
+    "vue": "^3.3.12",
+    "vue-i18n": "^9.8.0",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@intlify/nuxt3": "^0.2.4",
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   }
 }
